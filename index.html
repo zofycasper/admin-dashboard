@@ -8,79 +8,80 @@
         <title>Admin Dashboard</title>
     </head>
     <body>
-        <div class="container">
-            <div class="header">
-                <div class="upper-header">
-                    <div class="search-icon">
-                        <img src="icons/search.svg" alt="" />
-                    </div>
-                    <div class="search">
-                        <input type="text" id="search-bar" />
-                    </div>
-                    <div class="bell"><img src="icons/bell.svg" alt="" /></div>
-                    <div class="profile-pic">
-                        <img
-                            src="profile-pics/M2s-shzdgt04Ssw_vYP6p9jxk35yzbXxB4qclkcEl-uystsBNhmVLWlE3S7LDX7-XPsJI2Ev-2NWvgAyLxrwJsuU_SXZoZz6AhHeWg.webp"
-                            alt=""
-                        />
-                    </div>
-                    <div class="id-upper-right">Casper Xu</div>
+        <div class="header">
+            <div class="upper-header">
+                <div class="search-icon">
+                    <img src="icons/search.svg" alt="" />
                 </div>
-                <div class="lower-header">
-                    <div class="big-profile-pic">
-                        <img
-                            src="profile-pics/M2s-shzdgt04Ssw_vYP6p9jxk35yzbXxB4qclkcEl-uystsBNhmVLWlE3S7LDX7-XPsJI2Ev-2NWvgAyLxrwJsuU_SXZoZz6AhHeWg.webp"
-                            alt=""
-                        />
-                    </div>
-                    <div class="id-greeting">
-                        <p>Hi there,</p>
-                        <p class="header-id">Casper Xu (@zofycasper)</p>
-                    </div>
-                    <div class="button-area">
-                        <button>New</button>
-                        <button>Upload</button>
-                        <button>Share</button>
-                    </div>
+                <div class="search">
+                    <input type="text" id="search-bar" />
+                </div>
+                <div class="bell"><img src="icons/bell.svg" alt="" /></div>
+                <div class="profile-pic">
+                    <img
+                        src="profile-pics/M2s-shzdgt04Ssw_vYP6p9jxk35yzbXxB4qclkcEl-uystsBNhmVLWlE3S7LDX7-XPsJI2Ev-2NWvgAyLxrwJsuU_SXZoZz6AhHeWg.webp"
+                        alt=""
+                    />
+                </div>
+                <div class="id-upper-right">Casper Xu</div>
+            </div>
+            <div class="lower-header">
+                <div class="big-profile-pic">
+                    <img
+                        src="profile-pics/M2s-shzdgt04Ssw_vYP6p9jxk35yzbXxB4qclkcEl-uystsBNhmVLWlE3S7LDX7-XPsJI2Ev-2NWvgAyLxrwJsuU_SXZoZz6AhHeWg.webp"
+                        alt=""
+                    />
+                </div>
+                <div class="id-greeting">
+                    <p>Hi there,</p>
+                    <p class="header-id">Casper Xu (@zofycasper)</p>
+                </div>
+                <div class="button-area">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
                 </div>
             </div>
-            <div class="sidebar">
-                <div class="dashboard">
-                    <img src="icons/grid.svg" alt="" />
-                    Dashboard
-                </div>
-                <div class="space"></div>
-                <div class="home"><img src="icons/home.svg" alt="" />Home</div>
-                <div class="profile">
-                    <img src="icons/trello.svg" alt="" />Profile
-                </div>
-                <div class="messages">
-                    <img src="icons/message-square.svg" alt="" />Messages
-                </div>
-                <div class="history">
-                    <img src="icons/clock.svg" alt="" />History
-                </div>
-                <div class="tasks">
-                    <img src="icons/clipboard.svg" alt="" />Tasks
-                </div>
-                <div class="communities">
-                    <img src="icons/users.svg" alt="" />Communities
-                </div>
-                <div class="space"></div>
-                <div class="settings">
-                    <img src="icons/settings.svg" alt="" />Settings
-                </div>
-                <div class="support">
-                    <img src="icons/help-circle.svg" alt="" />Support
-                </div>
-                <div class="privacy">
-                    <img src="icons/lock.svg" alt="" />Privacy
-                </div>
+        </div>
+        <div class="sidebar">
+            <div class="dashboard">
+                <img src="icons/grid.svg" alt="" />
+                Dashboard
             </div>
-            <div class="main-content">
-                <div class="your-projects">
-                    <p id="your-projects-title">Your Projects</p>
-
+            <div class="space"></div>
+            <div class="home"><img src="icons/home.svg" alt="" />Home</div>
+            <div class="profile">
+                <img src="icons/trello.svg" alt="" />Profile
+            </div>
+            <div class="messages">
+                <img src="icons/message-square.svg" alt="" />Messages
+            </div>
+            <div class="history">
+                <img src="icons/clock.svg" alt="" />History
+            </div>
+            <div class="tasks">
+                <img src="icons/clipboard.svg" alt="" />Tasks
+            </div>
+            <div class="communities">
+                <img src="icons/users.svg" alt="" />Communities
+            </div>
+            <div class="space"></div>
+            <div class="settings">
+                <img src="icons/settings.svg" alt="" />Settings
+            </div>
+            <div class="support">
+                <img src="icons/help-circle.svg" alt="" />Support
+            </div>
+            <div class="privacy">
+                <img src="icons/lock.svg" alt="" />Privacy
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="your-projects">
+                <h3 id="your-projects-title" class="content-title">
+                    Your Projects
+                </h3>
+                <div class="card-area">
                     <div class="card">
                         <div class="card-text">
                             <!-- <div class="card-decoration"></div> -->
@@ -184,11 +185,15 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="announcement-trending">
                 <div class="announcements">
-                    <p class="announcements-title">Announcements</p>
+                    <h3 class="content-title">Announcements</h3>
                     <div class="announcements-area">
-                        <div class="announcement">
-                            <p class="announcement-header">Site Maintenance</p>
+                        <div class="first announcement">
+                            <h5 class="announcement-header">
+                                Site Maintenance
+                            </h5>
                             <p class="announcement-description">
                                 Et harum quidem rerum facilis est et expedita
                                 distinctio. Nam libero tempore.
@@ -215,7 +220,7 @@
                     </div>
                 </div>
                 <div class="trending">
-                    <div class="trending-title">Trending</div>
+                    <h3 class="content-title">Trending</h3>
                     <div class="trending-area">
                         <div class="trend">
                             <div class="trend-profile-pic">
